@@ -1,0 +1,61 @@
+https://outlook.live.com
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random HTML Page</title>
+
+    <style>
+        body {
+            background: linear-gradient(to right, #141e30, #243b55);
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        .box {
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 15px;
+            background: rgba(255,255,255,0.1);
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            background: #00c6ff;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #0072ff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <h1>Random HTML Project 🚀</h1>
+        <p id="text">Click the button to generate a random number.</p>
+
+        <button onclick="generateRandom()">Generate</button>
+
+        <h2 id="result">0</h2>
+    </div>
+
+    <script>
+        function generateRandom() {
+            let number = Math.floor(Math.random() * 1000);
+            document.getElementById("result").innerText = number;
+        }
+    </script>
+
+</body>
+</html>
