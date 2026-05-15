@@ -10,6 +10,19 @@ function systemInfo() {
     console.log("CPU Cores:", os.cpus().length);
     console.log("RAM:", (os.totalmem() / 1024 / 1024 / 1024).toFixed(2), "GB");
     console.log("Uptime:", (os.uptime() / 60).toFixed(2), "minutes");
+     console.log("User:", os.userInfo().username);
+    console.log("Platform:", os.platform());
+    console.log("CPU Cores:", os.cpus().length);
+    console.log("RAM:", (os.totalmem() / 1024 / 1024 / 1024).toFixed(2), "GB");
+    console.log("Uptime:", (os.uptime() / 60).toFixed(2), "minutes"); console.log("User:", os.userInfo().username);
+    console.log("Platform:", os.platform());
+    console.log("CPU Cores:", os.cpus().length);
+    console.log("RAM:", (os.totalmem() / 1024 / 1024 / 1024).toFixed(2), "GB");
+    console.log("Uptime:", (os.uptime() / 60).toFixed(2), "minutes"); console.log("User:", os.userInfo().username);
+    console.log("Platform:", os.platform());
+    console.log("CPU Cores:", os.cpus().length);
+    console.log("RAM:", (os.totalmem() / 1024 / 1024 / 1024).toFixed(2), "GB");
+    console.log("Uptime:", (os.uptime() / 60).toFixed(2), "minutes");
 }
 
 function randomNumber() {
